@@ -3,7 +3,7 @@ import './App.css'
 import {createBrowserRouter,NavLink,RouterProvider} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-import Pastes from './components/pastes'
+import Pastes from "./components/Pastes";
 import ViewPastes from './components/ViewPastes'
   const router = createBrowserRouter(
     [
